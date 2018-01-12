@@ -24,7 +24,8 @@
 %|	x	[(N)]	the estimated result
 %|	info	struct	random information (typically for debugging/testing)
 %|
-%| Copyright Dec 2013, Matthew Muckley, University of Michigan
+%| Last Change: Dec 2014
+%| By: Matthew Muckley, NYU School of Medicine (Matthew.Muckley@nyumc.org)
 
 if nargin < 4, help(mfilename), error(mfilename), end
 

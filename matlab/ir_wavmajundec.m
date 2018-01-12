@@ -5,7 +5,8 @@
 %| nlevels stationary wavelet transform. Ignores approximation
 %| coefficients
 %|
-%| Copyright Dec 2013 Matthew Muckley, University of Michigan
+%| Last Change: Dec 2014
+%| By: Matthew Muckley, NYU School of Medicine (Matthew.Muckley@nyumc.org)
 
 if nargin < 3, help(mfilename), error(mfilename), end
 

@@ -4,18 +4,21 @@
 %| on the center of k-space acquired. Then, it estimates the image using
 %| sparsity-promoting regularization via a BARISTA. Code optimizations are
 %| minimal; this script is primarily meant to be a proof-of-concept.
-%| Copyright 2014, Matthew Muckley, The University of Michigan
+%|
+%| Last Change: Jan 2018
+%| By: Matthew Muckley, NYU School of Medicine (Matthew.Muckley@nyumc.org)
+%|     Jeff Fessler, University of Michigan (fessler@umich.edu)
 
 % generate synthetic data
 if ~isvar('xtrue'), printm 'xtrue'
-	load('../data/kmask.mat');
+	load kmask;
 
 	nx = 256;
 	ny = 256;
 	nc = 8;
 	beta = 2^-13;
 
-	f.dir = '../data/';
+	f.dir = [path_find_dir('mri') '/../data/mri/'];
 	f.xtrue = [f.dir 'brainweb_t1.jpg'];
 	xtrue = imread(f.xtrue);
 	xtrue = xtrue(1:256,1:256);

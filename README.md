@@ -13,6 +13,8 @@ The library includes:
    Algorithm, a fast algorithm tailored for SENSE MRI
  - OM-BARISTA: BARISTA with optimized momentum augmentation
 
+An older version of these scripts is included in the [MIRT](https://web.eecs.umich.edu/~fessler/code/)
+
 ------------------------------------------------------------------------------
 REQUIREMENTS:
 ------------------------------------------------------------------------------

@@ -1,16 +1,18 @@
-% ir_barista_test2
-% by Matt Muckley
-% for the real brain data results
-% todo: needs the data to be read from web or such
+%| ir_barista_test2
+%| for the real brain data results
+%|
+%| Last Change: Jan 2018
+%| By: Matthew Muckley, NYU School of Medicine (Matthew.Muckley@nyumc.org)
+%|     Jeff Fessler, University of Michigan (fessler@umich.edu)
 
 nx = 144;
 ny = 256;
 nc = 8;
 
-load('../data/braindat.mat');
-load('../data/kmask.mat');
+load braindat;
+load kmask;
 % load brainmaskxinf;
-load('../data/brainxinf.mat');
+load brainxinf;
 % load braindb4xinf;
 
 A = (1/sqrt(nx*ny))*Gdft('mask', true(nx,ny), 'fftshift', 1, ...
