@@ -31,7 +31,7 @@ RUN:
 SUPPORTING MATERIAL:
 ------------------------------------------------------------------------------
 
- - see [BARISTA](doi.org/10.1109/TMI.2014.2363034) by Muckley et al. for
-   BARISTA
+BARISTA
+ - see [BARISTA by Muckley et al.](doi.org/10.1109/TMI.2014.2363034)
  - see "Momentum optimization for iterative shrinkage..." by Muckley et al.
    for OM-BARISTA
