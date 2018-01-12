@@ -17,8 +17,7 @@ The library includes:
 REQUIREMENTS:
 ------------------------------------------------------------------------------
 
- - Requires installation of the Michigan Image Reconstruction Toolbox (MIRT)
-   available at https://web.eecs.umich.edu/~fessler/code/
+ - Requires installation of the [Michigan Image Reconstruction Toolbox (MIRT)](https://web.eecs.umich.edu/~fessler/code/)
  - MATLAB 2011 or higher
 
 ------------------------------------------------------------------------------
