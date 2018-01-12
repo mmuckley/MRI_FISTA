@@ -11,7 +11,7 @@
 
 % generate synthetic data
 if ~isvar('xtrue'), printm 'xtrue'
-	load kmask;
+	load('../data/kmask');
 
 	nx = 256;
 	ny = 256;
