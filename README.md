@@ -24,7 +24,7 @@ REQUIREMENTS:
 RUN:
 ------------------------------------------------------------------------------
 
- - see matlab/ir_barista_example.m or matlabir_barista_test2.m for test 
+ - see matlab/ir_barista_example.m or matlab/ir_barista_test2.m for test 
    examples
 
 ------------------------------------------------------------------------------
@@ -34,4 +34,3 @@ SUPPORTING MATERIAL:
 BARISTA
  - see [BARISTA by Muckley et al.](doi.org/10.1109/TMI.2014.2363034)
  - see "Momentum optimization for iterative shrinkage..." by Muckley et al.
-   for OM-BARISTA
