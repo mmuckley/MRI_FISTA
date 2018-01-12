@@ -24,7 +24,8 @@ REQUIREMENTS:
 RUN:
 ------------------------------------------------------------------------------
 
- - see ir_barista_example.m or ir_barista_test2.m for test examples
+ - see matlab/ir_barista_example.m or matlabir_barista_test2.m for test 
+   examples
 
 ------------------------------------------------------------------------------
 SUPPORTING MATERIAL:
