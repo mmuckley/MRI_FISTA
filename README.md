@@ -31,7 +31,7 @@ RUN:
 SUPPORTING MATERIAL:
 ------------------------------------------------------------------------------
 
- - see "Fast parallel MR image reconstruction..." by Muckley et al. for 
+ - see [BARISTA](doi.org/10.1109/TMI.2014.2363034) by Muckley et al. for
    BARISTA
  - see "Momentum optimization for iterative shrinkage..." by Muckley et al.
    for OM-BARISTA
