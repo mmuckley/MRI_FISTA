@@ -8,14 +8,14 @@
 
 % generate synthetic data
 if ~isvar('xtrue'), printm 'xtrue'
-	load('data/kmask.mat');
+	load('../data/kmask.mat');
 
 	nx = 256;
 	ny = 256;
 	nc = 8;
 	beta = 2^-13;
 
-	f.dir = 'data/';
+	f.dir = '../data/';
 	f.xtrue = [f.dir 'brainweb_t1.jpg'];
 	xtrue = imread(f.xtrue);
 	xtrue = xtrue(1:256,1:256);

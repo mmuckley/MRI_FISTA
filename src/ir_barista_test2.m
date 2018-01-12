@@ -7,10 +7,10 @@ nx = 144;
 ny = 256;
 nc = 8;
 
-load('data/braindat.mat');
-load('data/kmask.mat');
+load('../data/braindat.mat');
+load('../data/kmask.mat');
 % load brainmaskxinf;
-load('data/brainxinf.mat');
+load('../data/brainxinf.mat');
 % load braindb4xinf;
 
 A = (1/sqrt(nx*ny))*Gdft('mask', true(nx,ny), 'fftshift', 1, ...
