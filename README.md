@@ -24,7 +24,7 @@ An older version of these scripts is included in the [MIRT](https://web.eecs.umi
  - see matlab/ir_barista_example.m or matlab/ir_barista_test2.m for test 
    examples
 
-### Supporing Material
+### Supporting Material
 
 BARISTA
  - see [BARISTA](http://doi.org/10.1109/TMI.2014.2363034) by Muckley et al.
