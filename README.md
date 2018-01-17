@@ -1,10 +1,9 @@
-## MRI_FISTA - A collection of FISTAs for MRI
+# MRI_FISTA - A collection of FISTAs for MRI
 
  - Matthew Muckley - Matthew.Muckley@nyumc.org
 
-------------------------------------------------------------------------------
-INFO:
-------------------------------------------------------------------------------
+## Info
+
 A library for accelerated FISTA algorithms tailored for MRI.
 
 The library includes:
@@ -15,23 +14,17 @@ The library includes:
 
 An older version of these scripts is included in the [MIRT](https://web.eecs.umich.edu/~fessler/code/)
 
-------------------------------------------------------------------------------
-REQUIREMENTS:
-------------------------------------------------------------------------------
+### Requirements
 
  - Requires installation of the [Michigan Image Reconstruction Toolbox (MIRT)](https://web.eecs.umich.edu/~fessler/code/)
  - MATLAB 2011 or higher
 
-------------------------------------------------------------------------------
-RUN:
-------------------------------------------------------------------------------
+### Test Examples
 
  - see matlab/ir_barista_example.m or matlab/ir_barista_test2.m for test 
    examples
 
-------------------------------------------------------------------------------
-SUPPORTING MATERIAL:
-------------------------------------------------------------------------------
+### Supporing Material
 
 BARISTA
  - see [BARISTA](http://doi.org/10.1109/TMI.2014.2363034) by Muckley et al.
